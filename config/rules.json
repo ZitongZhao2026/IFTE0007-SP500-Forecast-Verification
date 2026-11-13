@@ -1,0 +1,26 @@
+{
+  "mode": "EXPLORATORY_CORRECTED_PROXY_PIT",
+  "status": "PRECHECK_ONLY_NO_MODEL_FIT_OR_SCORE",
+  "protocol_version": "0.1.4-draft",
+  "protocol_sha256": "b80853fb0fa9135d58cf4e3d0c308bc11e354db6ade78b90dadf51814f71b706",
+  "forecast": "Friday 12:00 Europe/London",
+  "target": "next Friday, preceding candidate session within target week if closed",
+  "price_proxy": "next New York natural day 00:00",
+  "nonprice_proxy": "two New York natural days after observation at 23:59:59",
+  "price_window": "21 consecutive candidate sessions, no missing, isolate any conflict including P0 or target",
+  "independence": "G3 previously viewed; G4 previously exposed, non-independent",
+  "maturity": "target proxy available <= actual fit cutoff",
+  "calendars": "planned calendar with official special closures; actual session completeness UNKNOWN",
+  "strict_pit": "UNKNOWN",
+  "formal_score": "NOT_AUTHORIZED",
+  "conditions": "No known conflicting date, price, feature availability, target or model configuration; no post-cutoff input or immature label",
+  "models": {
+    "MYSELF": "7F Ridge alpha 1; G3 annual train_end_ceiling; G4 earlier-expanding separately documented",
+    "DMC": "VIX UST10Y Ridge alpha 1; 7F complete shared train pool; annual train ceiling G3",
+    "TLJ": "RV20 OLS min 30",
+    "EVA": "UST10Y OLS min 52; annual train ceiling G3; G4 explicitly previously authorized expanding adaptation"
+  },
+  "evaluation": "2018-2022 and 2023-2025 separately; 417 original candidate origins; no error-based selection",
+  "important": "UNKNOWN is not PASS; permissive research assumption does not authorize formal scoring. No model execution in preflight.",
+  "staleness": "Daily data: at most 5 source applicable sessions (existing research rule); absent verified source session calendar, permit only at most five natural days as conservative upper bound; otherwise block pending evidence"
+}
