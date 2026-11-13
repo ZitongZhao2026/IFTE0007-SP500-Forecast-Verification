@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+*.zip
+raw_inputs/
+private_inputs/
+training_*.csv
+live_*snapshot*.json
+*.key
+*.pem
+.env*
