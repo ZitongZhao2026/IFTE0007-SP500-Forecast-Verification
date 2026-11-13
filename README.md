@@ -1,4 +1,3 @@
-/opt/homebrew/Library/Homebrew/cmd/shellenv.sh: line 27: /bin/ps: Operation not permitted
 # IFTE0007 S&P 500 final forecast — public reproducibility candidate
 
 This repository candidate documents a forecast made with the information cutoff **2026-11-13 12:00 GMT** for the **2026-11-20 S&P 500 Price Index close**. The saved forecast is **7,552.46** index points from P0 **7,592.40** (Yahoo Finance `^GSPC` Close observed 2026-11-12) and a cumulative simple return of **−0.526004%**. The approved design was seven-factor Ridge (α=1), training-only StandardScaler and expanding corrected-proxy training, with 869 mature training rows. The target actual close was not known at forecast time. Strict PIT remains UNKNOWN; this repository does not establish formal scoring eligibility.
