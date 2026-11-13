@@ -1,0 +1,7 @@
+# Audit and reproduction scope
+
+The saved result is an unmodified copy with SHA-256 `ab11509624c4923e924fb624a305cddaa66a2262728e6c99252110d49b0c627b`. Private frozen inputs were bound to training manifest `5ac4fcd831041a851ac2038e12ddef4b2391245a5e41cebc53b9847ead336a27` and Live bundle `17f0da91ccf4f925b5a5f30dc681d51f99cd73bd23fb15e6c2342d0b5ddd826a`. The private execution manifest has SHA-256 `5661f6cab50bb3198bacad9e3df1ec75d3c233a5c0583a705f8b2f1471698997`. None of those private input/manifest contents is included here.
+
+The first single-use approval was bound to training manifest `8584a58a1597c9a3398e32cd09a0777442444d68e14379dae7dea482bef24ce4` and the same Live bundle. It failed after in-memory fit because the isolated directory lacked the model configuration; no final prediction JSON was written. A distinct user approval bound the corrected training manifest and unchanged Live bundle for a one-time retry. The retry wrote the result and passed an independent read-only review. See the three original audit markdown copies in `audit/`.
+
+The standalone verification command can inspect the saved result, arithmetic, configuration claims and the public copies' hashes. It cannot verify private input file contents, reconstruction, fitting, first historical availability or future target outcome. The result remains a corrected Proxy PIT forecast with Strict PIT UNKNOWN and no formal score.
