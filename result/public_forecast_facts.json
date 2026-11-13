@@ -1,0 +1,8 @@
+{
+  "p0": "7592.40",
+  "p0_source": "Yahoo Finance ^GSPC Close, observation date 2026-11-12; value independently reviewed in the private execution record",
+  "training_manifest_sha256": "5ac4fcd831041a851ac2038e12ddef4b2391245a5e41cebc53b9847ead336a27",
+  "live_bundle_sha256": "17f0da91ccf4f925b5a5f30dc681d51f99cd73bd23fb15e6c2342d0b5ddd826a",
+  "execution_manifest_sha256": "5661f6cab50bb3198bacad9e3df1ec75d3c233a5c0583a705f8b2f1471698997",
+  "result_file_sha256": "ab11509624c4923e924fb624a305cddaa66a2262728e6c99252110d49b0c627b"
+}
