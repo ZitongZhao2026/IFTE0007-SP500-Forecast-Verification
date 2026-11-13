@@ -1,0 +1,31 @@
+{
+  "status": "PRIMARY_DESIGN_APPROVED_BACKUP_UNAPPROVED",
+  "selection_authority": "Primary model design approved by explicit user decision; a specific data snapshot and forecast run still require separate approval.",
+  "training_candidate_pool": "same seven-feature complete-case pool for both Ridge candidates",
+  "models": {
+    "SEVEN_FACTOR_RIDGE": {
+      "features": [
+        "RET5",
+        "RET20",
+        "RV20",
+        "VIX",
+        "UST10Y",
+        "UST3M",
+        "SPREAD"
+      ],
+      "alpha": 1.0,
+      "pipeline": "StandardScaler fit on current eligible expanding training rows; Ridge",
+      "design_status": "APPROVED_DESIGN"
+    },
+    "VIX_UST10Y_RIDGE": {
+      "features": [
+        "VIX",
+        "UST10Y"
+      ],
+      "alpha": 1.0,
+      "pipeline": "StandardScaler fit on current eligible expanding training rows; Ridge",
+      "design_status": "PROVISIONAL_NOT_APPROVED; no automatic fallback"
+    }
+  },
+  "strict_pit_status": "STRICT_PIT_UNKNOWN"
+}
