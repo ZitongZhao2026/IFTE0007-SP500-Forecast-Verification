@@ -12,7 +12,7 @@ python3 -I verify_saved_result.py
 
 This checks every hash listed in `PUBLIC_FILE_HASHES.csv`, the saved configuration, training count and P0 × (1 + predicted return) conversion. It **does not** independently reproduce the 869-row fit or prove historical first availability. The original result JSON in `result/` and execution code in `code/` are unmodified copies. `result/public_forecast_facts.json` is a clearly marked derived public index to values and private manifest hashes.
 
-Windows: the repository includes `.gitattributes` with `* -text` to preserve the exact audited bytes even when `core.autocrlf=true`. Do not re-save files with an editor that changes line endings before running the hash check. See `CONFIG_SCOPE.md` for the G3 annual-cap wording in the archived research rules and `FINAL_CALCULATION_VERIFICATION.md` for the precise limit of calculation replay.
+Windows: the repository includes `.gitattributes` with `* -text` to preserve the exact audited bytes even when `core.autocrlf=true`. Do not re-save files with an editor that changes line endings before running the hash check. See `CONFIG_SCOPE.md` for the G3 annual-cap wording in the archived research rules, `FINAL_CALCULATION_VERIFICATION.md` for the absent original fitted parameters, and `audit/TRAINING_ORIGIN_COVERAGE.md` for the five excluded Fridays within the 869-row training span.
 
 ## Full model rerun
 
