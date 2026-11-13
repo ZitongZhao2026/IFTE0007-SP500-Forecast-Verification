@@ -1,0 +1,2 @@
+# Preserve the audited byte-level SHA-256 values on Windows, including with core.autocrlf=true.
+* -text
