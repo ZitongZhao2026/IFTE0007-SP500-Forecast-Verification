@@ -1,0 +1,33 @@
+{
+  "research_mode": "SUPPLEMENTARY_EXPLORATORY_REFITTING_SENSITIVITY",
+  "fixed_before_execution": "2026-11-10",
+  "eligible_origins": {
+    "G3_DEVELOPMENT": 257,
+    "G4_PREVIOUSLY_EXPOSED_NON_INDEPENDENT": 156
+  },
+  "frozen_models": [
+    "MYSELF",
+    "DMC",
+    "TLJ",
+    "EVA"
+  ],
+  "hac_lags": 4,
+  "tail_abs_return_thresholds": [
+    0.02,
+    0.05
+  ],
+  "frequency_sensitivity": "G3 weekly origin updates; retain original per-model feature gates, minimum n, alpha, solver and standardization",
+  "source_sha256": {
+    "research/2026-11-06/corrected_exploratory_comparison/historical_candidate_data.csv": "bad171153f751f352c72ee31e194585bb7c833179789ed4d6bcec2dbd6af39cf",
+    "research/2026-11-06/corrected_exploratory_comparison/predictions.csv": "73c3e6542f4e75c560cd7c704ec8b338a9831c4cb963b22940884faa092bc0bf",
+    "research/2026-11-06/corrected_exploratory_comparison/frozen_admission.csv": "3e819236db31f9a06f4b34929b09e5260d86c72879521563ba4ae939b4aac7d3",
+    "research/2026-11-06/corrected_exploratory_comparison/frozen_training_membership.csv": "c697776ab64c059878bad9fb9840e7738e8dd67ba548c2e35af4aa743c7d61b2",
+    "research/2026-11-06/corrected_exploratory_comparison/rules.json": "9f664e2e82b7510bc98a10ea1bbf31c83c1ded968869a0fbe45c4fba0cd7a46a",
+    "research/2026-11-06/corrected_exploratory_comparison/execution_snapshot.json": "5cbb0d4605418adc9767f3904d385ab9ad33e33d272e206eac354286045526d3",
+    "research/2026-11-06/corrected_exploratory_comparison/run_comparison.py": "8be178d7a32104c22830f3daf864e30bd6ae6a6d62bdc298c3ee39ebaa33d1ad",
+    "research/2026-11-06/corrected_exploratory_comparison/input_hashes.csv": "afe60e2515e980c3cbc8534dbc9d07649280b095955ab6cc81b91bd80e71b4d9",
+    "research/2026-11-06/nov6_preclose_forecast/frozen_snapshot/frozen_predictions.csv": "093e59f75b1d7a59840d4a2c4ac0ce264e2b222fadadd894b27df25cb6c16fb2",
+    "research/2026-11-09/report_author_handover/06_sensitivity_and_failure_analysis/fixed_rate_sensitivity_recalculated.csv": "15d8568fd8d09c009c204415789c4cea83a4a8568a023015bd43532f99ad4d4d",
+    "research/2026-11-10/eva_v2_empirical_completion/empirical_completion.py": "77bbbdab549a4002b69c2fbbf5aa427b228f8dd93533108eb6884774c5ad0424"
+  }
+}

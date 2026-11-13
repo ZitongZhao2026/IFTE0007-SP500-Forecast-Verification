@@ -1,0 +1,7 @@
+{
+  "status": "PASS_SCOPED_SCREEN",
+  "scope": "All release files; secrets, credentials, email/personal local paths and binary payloads; conservative source-by-source raw/derived-data exclusion",
+  "automated_findings": [],
+  "excluded_source_members": 34,
+  "limitations": "Pattern checks and source classification are not a universal proof of absence; uncertain source data excluded; original final artifacts unchanged"
+}

@@ -1,0 +1,17 @@
+report_location,claim,evidence_status,actual_evidence_paths,qualification
+PDF p3 Table 1,七因子构造与代理可得性规则,已运行、有代码及输出,research/2026-11-06/corrected_exploratory_comparison/rules.json | research/2026-11-06/corrected_exploratory_comparison/prepare_no_fit.py | research/2026-11-06/corrected_exploratory_comparison/historical_candidate_data.csv,Rule confirmed as proxy; actual release/vintage UNKNOWN
+PDF p2,30 Oct 2026保存拟合五个符号匹配,已有保存输出;本轮重算,research/2026-11-06/nov6_preclose_forecast/frozen_snapshot/frozen_predictions.csv | coefficient_sign_stability.csv,Only one saved fit; working signs set after some coefficients seen
+PDF p7 Tables A1–A2,VIX/RV20相关及描述统计,本轮从冻结共同起点独立复算,research/2026-11-06/corrected_exploratory_comparison/historical_candidate_data.csv | frozen_admission.csv | factor_descriptives_recalculated.csv | factor_correlations_recalculated.csv,Descriptive and exposed sample; not causal
+PDF p8 Table A3,旧PCA/树/Ridge比较,已运行、有代码及输出,research/2026-10-29/g3_main_experiment/g3_metrics.csv | research/2026-10-29/g3_nested_validation/nested_metrics.csv,Earlier timing convention; cannot merge with corrected MAPE
+PDF p8 Table A4,G3年度上限与TLJ逐周;G4逐周,已运行、有原始训练成员,research/2026-11-06/corrected_exploratory_comparison/run_comparison.py | research/2026-11-06/corrected_exploratory_comparison/frozen_training_membership.csv | research/2026-11-06/corrected_exploratory_comparison/execution_snapshot.json,Rationale for annual cap not documented
+PDF p4 Table2,修正后四模型MAPE MAE RMSE与No-Change,已运行、有代码及输出,research/2026-11-06/corrected_exploratory_comparison/predictions.csv | research/2026-11-06/corrected_exploratory_comparison/metrics.csv | paired_ridge_analysis.csv,Proxy PIT; G4 previously exposed
+PDF p4,七因子相对双因子胜期127/257与91/156,本轮从保存预测独立复算,paired_ridge_analysis.csv | paired_ridge_summary.csv,Same origin and candidate actual; not independent test
+PDF p4,七因子双因子平均/中位配对APE差异,本轮从保存预测独立复算,paired_ridge_summary.csv | paired_ridge_yearly.csv,HAC lag4 descriptive inference; selection exposure remains
+PDF p5,G3/G4波动至少2%的样本幅度低估101/101和42/42,本轮从保存预测独立复算,tail_error_by_origin.csv | tail_error_diagnostics.csv,Post-hoc realised-return grouping
+PDF p9 Table A5,2025-03-28七因子尾部失败,本轮从保存预测独立复算,tail_case_2025_03_28.json | research/2026-11-06/corrected_exploratory_comparison/predictions.csv,Candidate target close not certified official vintage
+PDF p9 Table A6,25bp固定系数利率扰动,已有保存参数;本轮算术复算,rate_sensitivity_arithmetic.csv | research/2026-11-06/nov6_preclose_forecast/frozen_snapshot/frozen_predictions.csv,Original separate timestamped arithmetic run log not located
+PDF p5,更保守发布时间情景影响,本轮新增受控拟合实验,availability_timing_sensitivity/scenario_metrics.csv | availability_timing_sensitivity/timing_config.json,Assumption-based only; strict PIT UNKNOWN
+PDF p9 note to Table A6,原始25bp计算脚本及输出在7日草稿包,证据不完整,research/2026-11-09/report_author_handover/GAPS_AND_LIMITATIONS.md | research/2026-11-09/report_author_handover/06_sensitivity_and_failure_analysis/recalculate_fixed_rate_sensitivity.py,8 Nov saved-coefficient recalculation located; separate original run timestamp missing
+PDF p10,7日模型设计人工批准,已存人工审批记录,research/2026-11-07/model_execution_readiness_v2/model_design_approval_record.json | governance/approval_log.jsonl,"Design approval only, not final data/run"
+PDF p10,完整原始prompt-to-tool日志,缺失证据,research/2026-11-09/report_author_handover/GAPS_AND_LIMITATIONS.md,Do not invent transcript
+PDF p5/p10,13 Nov最终输入与预测,必须等11月13日,research/2026-11-07/model_execution_readiness_v2/model_design_approval_record.json,Final snapshot BLOCKED; execution NOT APPROVED

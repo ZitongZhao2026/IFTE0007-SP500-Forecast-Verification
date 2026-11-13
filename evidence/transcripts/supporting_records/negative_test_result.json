@@ -1,0 +1,7 @@
+{
+  "future_record": "ignored when outside existing window; future endpoint rejected by proxy cutoff",
+  "missing_required_session": "window refused rather than jumping the missing session",
+  "conflict_modified": "integrity validation raised CONFLICT_EVIDENCE_MISMATCH",
+  "conflict_window": "EXCLUDED_2019_PRICE_CONFLICT",
+  "inputs_unchanged": true
+}

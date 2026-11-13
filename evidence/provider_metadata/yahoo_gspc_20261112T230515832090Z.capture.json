@@ -1,0 +1,21 @@
+{
+  "source_id": "yahoo_gspc",
+  "requested_url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?period1=1790812800&period2=1794614400&interval=1d&events=history",
+  "response_url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?period1=1790812800&period2=1794614400&interval=1d&events=history",
+  "retrieval_started_utc": "2026-11-12T23:05:15.832090+00:00",
+  "retrieval_finished_utc": "2026-11-12T23:05:15.920322+00:00",
+  "http_status": 200,
+  "content_type": "",
+  "response_date_header": "",
+  "last_modified_header": "",
+  "raw_bytes": 4395,
+  "raw_sha256": "0326b5e3cf85e472f5b4583478c9fec0f0334c29b59c42ed391166ab2ad24ca6",
+  "pit_admission": "NOT_REVIEWED",
+  "historical_first_available_at": "UNKNOWN",
+  "_public_projection": {
+    "removed_field": "raw_path",
+    "reason": "personal local absolute path",
+    "original_capture_sha256": "54a6b4e3380edb5b503587b45ad1d3535a604ffcd83a5d81755d1b8c10ba3353",
+    "original_project_relative_locator": "research/2026-11-13/final_forecast_execution_20261113/input_freeze_candidate/yahoo_gspc/yahoo_gspc_20261112T230515832090Z.capture.json"
+  }
+}

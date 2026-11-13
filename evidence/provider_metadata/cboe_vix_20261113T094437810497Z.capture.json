@@ -1,0 +1,21 @@
+{
+  "source_id": "cboe_vix",
+  "requested_url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+  "response_url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+  "retrieval_started_utc": "2026-11-13T09:44:37.810497+00:00",
+  "retrieval_finished_utc": "2026-11-13T09:44:38.033129+00:00",
+  "http_status": 200,
+  "content_type": "text/csv",
+  "response_date_header": "Fri, 13 Nov 2026 09:44:38 GMT",
+  "last_modified_header": "Fri, 13 Nov 2026 02:21:03 GMT",
+  "raw_bytes": 474808,
+  "raw_sha256": "2a21208b9e9f61ad60e4d6b028bb9afc85483e4b0b94b69d2f0b1922dfd96820",
+  "pit_admission": "NOT_REVIEWED",
+  "historical_first_available_at": "UNKNOWN",
+  "_public_projection": {
+    "removed_field": "raw_path",
+    "reason": "personal local absolute path",
+    "original_capture_sha256": "b811a7d02a130e7399d0ea1da2ce18440fb0f5ab5c3fe75e753e115eaafbb19b",
+    "original_project_relative_locator": "research/2026-11-13/final_forecast_execution_20261113/input_freeze_candidate/cboe_vix/cboe_vix_20261113T094437810497Z.capture.json"
+  }
+}

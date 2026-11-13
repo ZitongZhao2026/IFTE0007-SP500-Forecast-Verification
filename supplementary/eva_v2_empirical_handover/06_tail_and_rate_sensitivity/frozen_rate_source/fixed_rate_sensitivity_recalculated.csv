@@ -1,0 +1,3 @@
+scenario,forecast_origin_id,p0,delta_predicted_return,delta_predicted_price_points,evidence
+LONG_END_ONLY_10Y_PLUS_25_BP,F20261030,7720.39,0.00015307750382421948,1.1818180297494658,saved estimator_details_json; fixed coefficients/scales; no refit
+PARALLEL_3M_2Y_10Y_PLUS_25_BP,F20261030,7720.39,-0.00022664657700686248,-1.749799966658011,saved estimator_details_json; fixed coefficients/scales; no refit

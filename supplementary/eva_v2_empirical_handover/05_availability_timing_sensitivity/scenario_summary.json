@@ -1,0 +1,36 @@
+{
+  "scenario_config_sha256": "33048fde3a59ba4e369085ccb6b9b18d1567f826fbdc4631eb79c8c2ca68d7e8",
+  "counts": {
+    "VIX_T_PLUS_3_NY_DAYS": {
+      "G3_DEVELOPMENT": 237,
+      "G4_PREVIOUSLY_EXPOSED_NON_INDEPENDENT": 153
+    },
+    "TREASURY_T_PLUS_3_NY_DAYS": {
+      "G3_DEVELOPMENT": 226,
+      "G4_PREVIOUSLY_EXPOSED_NON_INDEPENDENT": 136
+    }
+  },
+  "changed_dates": {
+    "VIX_T_PLUS_3_NY_DAYS": {
+      "F2018": 51,
+      "F2019": 51,
+      "F2020": 52,
+      "F2021": 53,
+      "F2022": 52,
+      "F2023": 52,
+      "F2024": 52,
+      "F2025": 52
+    },
+    "TREASURY_T_PLUS_3_NY_DAYS": {
+      "F2018": 51,
+      "F2019": 51,
+      "F2020": 52,
+      "F2021": 53,
+      "F2022": 52,
+      "F2023": 51,
+      "F2024": 52,
+      "F2025": 51
+    }
+  },
+  "strict_pit_status": "UNKNOWN"
+}

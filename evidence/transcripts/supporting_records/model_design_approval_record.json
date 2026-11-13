@@ -1,0 +1,49 @@
+{
+  "record_status": "MODEL_DESIGN_APPROVED",
+  "decision_scope": "MODEL_DESIGN_ONLY",
+  "protocol_version": "0.1.4-draft",
+  "protocol_sha256": "b80853fb0fa9135d58cf4e3d0c308bc11e354db6ade78b90dadf51814f71b706",
+  "corrected_proxy_rules_sha256": "9f664e2e82b7510bc98a10ea1bbf31c83c1ded968869a0fbe45c4fba0cd7a46a",
+  "primary_candidate": {
+    "model_id": "SEVEN_FACTOR_RIDGE",
+    "alpha": 1.0,
+    "features": [
+      "RET5",
+      "RET20",
+      "RV20",
+      "VIX",
+      "UST10Y",
+      "UST3M",
+      "SPREAD"
+    ],
+    "status": "APPROVED_DESIGN"
+  },
+  "backup_candidate": {
+    "model_id": "VIX_UST10Y_RIDGE",
+    "alpha": 1.0,
+    "features": [
+      "VIX",
+      "UST10Y"
+    ],
+    "status": "PROVISIONAL_NOT_APPROVED",
+    "automatic_fallback": false,
+    "separate_human_approval_required": true
+  },
+  "training": "Expanding; only proxy-matured and source-admitted labels; StandardScaler fit within the current training rows",
+  "forecast_cutoff_utc": "2026-11-13T12:00:00Z",
+  "target_session": "2026-11-20",
+  "training_manifest_sha256": "PENDING",
+  "live_evidence_manifest_sha256": "PENDING",
+  "execution_authorization": "NOT_APPROVED",
+  "strict_pit_status": "STRICT_PIT_UNKNOWN",
+  "human_approval": {
+    "approver": "User / project coordinator (explicit instruction in this conversation; personal name not supplied)",
+    "decision": "APPROVED_PRIMARY_MODEL_DESIGN_ONLY; BACKUP_REMAINS_UNAPPROVED",
+    "decision_reference": "MODEL_DESIGN_APPROVAL_2026-11-07T223046Z in model_design_approval_events.jsonl",
+    "approval_timestamp_utc": "2026-11-07T22:30:46Z",
+    "signature_or_log_record_sha256": "NOT_PROVIDED; no signature fabricated"
+  },
+  "approval_event_id": "MODEL_DESIGN_APPROVAL_2026-11-07T223046Z",
+  "approved_at_utc": "2026-11-07T22:30:46Z",
+  "final_data_snapshot_status": "BLOCKED"
+}

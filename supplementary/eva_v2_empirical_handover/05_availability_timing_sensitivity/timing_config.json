@@ -1,0 +1,34 @@
+{
+  "run_type": "ASSUMPTION_BASED_AVAILABILITY_TIMING_SENSITIVITY",
+  "price_rule": "UNCHANGED_NEXT_NY_NATURAL_DAY_00_00",
+  "baseline_vix_treasury_rule": "OBSERVATION_PLUS_2_NY_NATURAL_DAYS_23_59_59",
+  "scenarios": {
+    "VIX_T_PLUS_3_NY_DAYS": [
+      "VIX"
+    ],
+    "TREASURY_T_PLUS_3_NY_DAYS": [
+      "UST10Y",
+      "UST3M",
+      "UST2Y",
+      "SPREAD"
+    ]
+  },
+  "training_frequency": "FROZEN_ORIGINAL_PER_MODEL_RULES",
+  "price_conflict_policy": "UNCHANGED_ISOLATION",
+  "formal_scoring": "NOT_AUTHORIZED",
+  "strict_pit": "UNKNOWN",
+  "source_sha256": {
+    "research/2026-11-06/corrected_exploratory_comparison/historical_candidate_data.csv": "bad171153f751f352c72ee31e194585bb7c833179789ed4d6bcec2dbd6af39cf",
+    "research/2026-11-06/corrected_exploratory_comparison/candidate_admission_precheck.csv": "194c36db7c276335bd7bfa9077ef00003f22b4aed808b7ee4b538deff3b1cb8e",
+    "research/2026-11-06/corrected_exploratory_comparison/frozen_admission.csv": "3e819236db31f9a06f4b34929b09e5260d86c72879521563ba4ae939b4aac7d3",
+    "research/2026-11-06/corrected_exploratory_comparison/predictions.csv": "73c3e6542f4e75c560cd7c704ec8b338a9831c4cb963b22940884faa092bc0bf",
+    "research/2026-11-06/corrected_exploratory_comparison/run_comparison.py": "8be178d7a32104c22830f3daf864e30bd6ae6a6d62bdc298c3ee39ebaa33d1ad",
+    "research/2026-11-06/corrected_four_model_evaluation/build_candidate_xy.py": "122d87dbf2833e29da2b4e5f5c3ae8cf8590da759fae75da3bb076a107ea3c4e",
+    "research/2026-10-28/g1_vix_treasury/raw/VIX_History.csv": "6da7f149324ec456c80f6d7e96c90b5d3bcaa3d0f6a4274f7840542db9809265",
+    "research/2026-10-28/g1_vix_treasury/raw/yield-curve-rates-1990-2024.csv": "258a594eb64e9d21d9e8574b0b8580b0a5230dce56bb284ec6aa49a9a260897f",
+    "research/2026-10-28/g1_vix_treasury/raw/daily-treasury-rates-2025.csv": "cf2fa3da7f160384b63d2ead698532b1d76cd9f789ce4911e2304db85b14e6d5",
+    "research/2026-10-28/g1_vix_treasury/raw/daily-treasury-rates-2026.csv": "7eb8494d3f36efef53017dcb1c22548fdabaca3a1aac8a25424eef13d693398d",
+    "research/2026-11-10/eva_v2_empirical_completion/empirical_completion.py": "77bbbdab549a4002b69c2fbbf5aa427b228f8dd93533108eb6884774c5ad0424",
+    "research/2026-11-10/eva_v2_empirical_completion/availability_timing_sensitivity/run_timing_sensitivity.py": "45a689f842cc75e0a41abe8af43455f9fe6cdbc2a76f5506e4d616a8cab49121"
+  }
+}

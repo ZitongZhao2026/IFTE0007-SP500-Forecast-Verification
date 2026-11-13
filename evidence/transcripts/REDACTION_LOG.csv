@@ -1,0 +1,3 @@
+file,change,reason,original_preserved
+TRANSCRIPT_INDEX.md,Personal home path replaced by $CODEX_HOME and $PROJECT_ROOT,privacy,YES
+short_extract.md,Skipped material explicitly shown as [omitted]; no words inside quotations changed,compact report exhibit and avoid source rows,YES
